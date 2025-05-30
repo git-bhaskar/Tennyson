@@ -1,5 +1,6 @@
 <img class="full" onclick="OpenLink(this, 'index.html')" src="images/af.jpg">
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Ben 10: Alien Force</title><link rel="stylesheet" href="styles/pico.min.css"><link rel="stylesheet" href="styles/episode.css">
+    <script src="script/script.js"></script>
 </head>
 <body>
     <div class="container">
@@ -143,17 +144,4 @@
 
 <div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-alien-force-8211-season-03-8211-episode-19&lang=0')" ><div class="episode-thumbnail"><img src="images/af/s3/20.jpg"></div><div class="episode-details"><h3>The Final Battle: Part 2</h3><p>S3E20 • 26 Mar 2010 • 22 min</p></div></div>
 </div>
-</div><script>
-        function showSeason(season) {
-            const seasons = document.querySelectorAll('.episode-list');
-            seasons.forEach(s => s.style.display = 'none');
-            document.getElementById(`season-${season}`).style.display = 'block';
-
-            const buttons = document.querySelectorAll('.season-tab');
-            buttons.forEach(b => b.classList.remove('active'));
-            buttons[season - 1].classList.add('active');
-        }
-function OpenLink(element, url) {
-            window.open(url, '_blank');
-        }
-    </script></body></html>
+</div></body></html>
