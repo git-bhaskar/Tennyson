@@ -1,0 +1,509 @@
+<img class="full" onclick="OpenLink(this, 'index.html')" src="images/ua.jpg">
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Ben 10: Ultimate Alien</title><link rel="stylesheet" href="styles/pico.min.css"><style>
+        body {
+            background-color: #121212;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 15px;
+        }
+        .episode-list img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+        .episode-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #333;
+        }
+        .episode-thumbnail {
+            width: 150px;
+            height: 84px; /* 16:9 aspect ratio */
+            border-radius: 8px;
+            overflow: hidden;
+            flex-shrink: 0;
+        }
+        .episode-thumbnail img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .episode-details {
+            margin-left: 15px;
+            flex-grow: 1;
+        }
+        .episode-details h3 {
+            margin: 0 0 5px 0;
+            font-size: 1em;
+            color: white;
+        }
+        .episode-details p {
+            margin: 0;
+            color: #bbb;
+            font-size: 0.9em;
+        }
+        .season-tabs {
+            display: flex;
+            left-content: center;
+            overflow-x: auto;
+            background-color: #121212;
+            padding: 10px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+        }
+        .season-tab {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            cursor: pointer;
+            border-radius: 20px;
+            transition: background-color 0.3s;
+            white-space: nowrap;
+        }
+        .season-tab.active, .season-tab:hover {
+            background-color: #555;
+        }
+        .season-tab:focus {
+            outline: 4px solid #121212;
+        }
+        .episode-title {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .episode-title h3 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        .episode-title p {
+            margin: 0;
+            color: #bbb;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+<p style="color: white;">A year after Ben Tennyson defeated Vilgax, he's known the world over as a hero, to kids, anyway. Adults are somewhat more suspicious. Armed with his mysterious new Ultimatrix, which can transform his aliens into their ultimate forms, Ben and his pals Gwen and Kevin are ready for more action.</p>
+        <div class="season-tabs">
+            <button class="season-tab active" onclick="showSeason(1)">Season 1</button>
+            <button class="season-tab" onclick="showSeason(2)">Season 2</button>
+            <button class="season-tab" onclick="showSeason(3)">Season 3</button>
+            
+
+</div>
+
+
+        <div id="season-1" class="episode-list"><div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-episode-01&lang=0')" ><div class="episode-thumbnail"><img src="images/ua/s1/1.avif"></div><div class="episode-details"><h3>Fame</h3><p>S1E01 • 23 Apr 2010 • 22 min</p></div></div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-episode-02&lang=0')" ><div class="episode-thumbnail"><img src="images/ua/s1/2.avif"></div><div class="episode-details"><h3>Duped</h3><p>S1E02 • 30 Apr 2010 • 22 min</p></div></div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-episode-03&lang=0')" ><div class="episode-thumbnail"><img src="images/ua/s1/3.avif"></div><div class="episode-details"><h3>Hit 'Em Where They Live</h3><p>S1E03 • 7 May 2010 • 22 min</p></div></div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-episode-04&lang=0')" ><div class="episode-thumbnail"><img src="images/ua/s1/4.avif"></div><div class="episode-details"><h3>Video Games</h3><p>S1E04 • 14 May 2010 • 22 min</p></div></div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-episode-05&lang=0')" ><div class="episode-thumbnail"><img src="images/ua/s1/5.avif"></div><div class="episode-details"><h3>Escape from Aggregor</h3><p>S1E05 • 21 May 2010 • 22 min</p></div></div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-episode-06&lang=0')" ><div class="episode-thumbnail"><img src="images/ua/s1/6.avif"></div><div class="episode-details"><h3>Too Hot to Handle</h3><p>S1E06 • 28 May 2010 • 22 min</p></div></div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-episode-07&lang=0')" ><div class="episode-thumbnail"><img src="images/ua/s1/7.avif"></div><div class="episode-details"><h3>Andreas' Fault</h3><p>S1E07 • 4 Jun 2010 • 22 min</p></div></div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-episode-08&lang=0')" ><div class="episode-thumbnail"><img src="images/ua/s1/8.avif"></div><div class="episode-details"><h3>Fused</h3><p>S1E08 • 11 Jun 2010 • 22 min</p></div></div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-episode-09&lang=0')" ><div class="episode-thumbnail"><img src="images/ua/s1/9.avif"></div><div class="episode-details"><h3>Hero Time</h3><p>S1E09 • 18 Jun 2010 • 22 min</p></div></div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-episode-10&lang=0')" ><div class="episode-thumbnail"><img src="images/ua/s1/10.avif"></div><div class="episode-details"><h3>Ultimate Aggregor</h3><p>S1E10 • 9 Jul 2010 • 22 min</p></div></div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-episode-11&lang=0')" ><div class="episode-thumbnail"><img src="images/ua/s1/11.avif"></div><div class="episode-details"><h3>Map of Infinity</h3><p>S1E11 • 16 Jul 2010 • 22 min</p></div></div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-episode-12&lang=0')" ><div class="episode-thumbnail"><img src="images/ua/s1/12.avif"></div><div class="episode-details"><h3>Reflected Glory</h3><p>S1E12 • 23 Jul 2010 • 22 min</p></div></div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-episode-13&lang=0')" ><div class="episode-thumbnail"><img src="images/ua/s1/13.avif"></div><div class="episode-details"><h3>Deep</h3><p>S1E13 • 30 Jul 2010 • 22 min</p></div></div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-episode-14&lang=0')" ><div class="episode-thumbnail"><img src="images/ua/s1/14.avif"></div><div class="episode-details"><h3>Where the Magic Happens</h3><p>S1E14 • 1 Oct 2010 • 22 min</p></div></div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-episode-15&lang=0')" ><div class="episode-thumbnail"><img src="images/ua/s1/15.avif"></div><div class="episode-details"><h3>Perplexahedron</h3><p>S1E15 • 8 Oct 2010 • 22 min</p></div></div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-episode-16&lang=0')" ><div class="episode-thumbnail"><img src="images/ua/s1/16.avif"></div><div class="episode-details"><h3>The Forge of Creation</h3><p>S1E16 • 15 Oct 2010 • 22 min</p></div></div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-episode-17&lang=0')" ><div class="episode-thumbnail"><img src="images/ua/s1/17.avif"></div><div class="episode-details"><h3>Nor Iron Bars a Cage</h3><p>S1E17 • 22 Oct 2010 • 22 min</p></div></div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-episode-18&lang=0')" ><div class="episode-thumbnail"><img src="images/ua/s1/18.avif"></div><div class="episode-details"><h3>The Enemy of My Enemy</h3><p>S1E18 • 29 Oct 2010 • 22 min</p></div></div><div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-episode-19&lang=0')" ><div class="episode-thumbnail"><img src="images/ua/s1/19.avif"></div><div class="episode-details"><h3>Absolute Power: Part 1</h3><p>S1E19 • 5 Nov 2010 • 22 min</p></div></div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-episode-20&lang=0')" ><div class="episode-thumbnail"><img src="images/ua/s1/20.avif"></div><div class="episode-details"><h3>Absolute Power: Part 2</h3><p>S1E20 • 12 Nov 2010 • 22 min</p></div></div></div>
+        <div id="season-2" class="episode-list" style="display: none;"><div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-02-8211-episode-01&lang=0')" >
+    <div class="episode-thumbnail">
+        <img src="images/ua/s2/1.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>The Transmogrification of Eunice</h3>
+        <p>S2E01 • 4 Feb 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-02-8211-episode-02&lang=0')" >
+    <div class="episode-thumbnail">
+        <img src="images/ua/s2/2.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>Eye of the Beholder</h3>
+        <p>S2E02 • 11 Feb 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-02-8211-episode-03&lang=0')" >
+    <div class="episode-thumbnail">
+        <img src="images/ua/s2/3.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>Viktor: The Spoils</h3>
+        <p>S2E03 • 18 Feb 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-02-8211-episode-04&lang=0')" >
+    <div class="episode-thumbnail">
+        <img src="images/ua/s2/4.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>The Big Story</h3>
+        <p>S2E04 • 25 Feb 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-02-8211-episode-05&lang=0')" >
+    <div class="episode-thumbnail">
+        <img src="images/ua/s2/5.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>Girl Trouble</h3>
+        <p>S2E05 • 4 Mar 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-02-8211-episode-06&lang=0')" >
+    <div class="episode-thumbnail">
+        <img src="images/ua/s2/6.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>Revenge of the Swarm</h3>
+        <p>S2E06 • 11 Mar 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-02-8211-episode-07&lang=0')" >
+    <div class="episode-thumbnail">
+        <img src="images/ua/s2/7.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>The Creature from Beyond</h3>
+        <p>S2E07 • 25 Mar 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-02-8211-episode-08&lang=0')" >
+    <div class="episode-thumbnail">
+        <img src="images/ua/s2/8.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>Basic Traning</h3>
+        <p>S2E08 • 1 Apr 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-02-8211-episode-09&lang=0')" >
+    <div class="episode-thumbnail">
+        <img src="images/ua/s2/9.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>It's Not Easy Being Gwen</h3>
+        <p>S2E09 • 8 Apr 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-02-8211-episode-10&lang=0')" >
+    <div class="episode-thumbnail">
+        <img src="images/ua/s2/10.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>Ben 10,000 Returns</h3>
+        <p>S2E10 • 15 Apr 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-02-8211-episode-11&lang=0')" >
+    <div class="episode-thumbnail">
+        <img src="images/ua/s2/11.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>Moonstruck</h3>
+        <p>S2E11 • 29 Apr 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-02-8211-episode-12&lang=0')" >
+    <div class="episode-thumbnail">
+        <img src="images/ua/s2/12.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>Prisoner #775 is Missing</h3>
+        <p>S2E12 • 6 May 2011 • 22 min</p>
+    </div>
+</div></div>
+        <div id="season-3" class="episode-list" style="display: none;"><div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-03-8211-episode-01&lang=0')">
+    <div class="episode-thumbnail">
+        <img src="images/ua/s3/1.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>The Purge</h3>
+        <p>S3E01 • 29 May 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-03-8211-episode-02&lang=0')">
+    <div class="episode-thumbnail">
+        <img src="images/ua/s3/2.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>Simian Says</h3>
+        <p>S3E02 • 5 Jun 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-03-8211-episode-03&lang=0')">
+    <div class="episode-thumbnail">
+        <img src="images/ua/s3/3.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>Greetings from Techadon</h3>
+        <p>S3E03 • 12 Jun 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-03-8211-episode-04&lang=0')">
+    <div class="episode-thumbnail">
+        <img src="images/ua/s3/4.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>The Flame Keeper's Circle</h3>
+        <p>S3E04 • 19 Jun 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-03-8211-episode-05&lang=0')">
+    <div class="episode-thumbnail">
+        <img src="images/ua/s3/5.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>Double or Nothing</h3>
+        <p>S3E05 • 26 Jun 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-03-8211-episode-06&lang=0')">
+    <div class="episode-thumbnail">
+        <img src="images/ua/s3/6.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>The Perfect Girlfriend</h3>
+        <p>S3E06 • 3 Jul 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-03-8211-episode-07&lang=0')">
+    <div class="episode-thumbnail">
+        <img src="images/ua/s3/7.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>Ultimate Sacrifice</h3>
+        <p>S3E07 • 10 Jul 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-03-8211-episode-08&lang=0')">
+    <div class="episode-thumbnail">
+        <img src="images/ua/s3/8.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>The Widening Gyre</h3>
+        <p>S3E08 • 17 Jul 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-03-8211-episode-09&lang=0')">
+    <div class="episode-thumbnail">
+        <img src="images/ua/s3/9.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>The Mother of All Vreedles</h3>
+        <p>S3E09 • 24 Jul 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-03-8211-episode-10&lang=0')">
+    <div class="episode-thumbnail">
+        <img src="images/ua/s3/10.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>A Knight to Remember</h3>
+        <p>S3E10 • 31 Jul 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-03-8211-episode-11&lang=0')">
+    <div class="episode-thumbnail">
+        <img src="images/ua/s3/11.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>Solitary Alignment</h3>
+        <p>S3E11 • 7 Aug 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-03-8211-episode-12&lang=0')">
+    <div class="episode-thumbnail">
+        <img src="images/ua/s3/12.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>Inspector #13</h3>
+        <p>S3E12 • 14 Aug 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-03-8211-episode-13&lang=0')">
+    <div class="episode-thumbnail">
+        <img src="images/ua/s3/13.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>The Enemy of My Frenemy</h3>
+        <p>S3E13 • 21 Aug 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-03-8211-episode-14&lang=0')">
+    <div class="episode-thumbnail">
+        <img src="images/ua/s3/14.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>Couples Retreat</h3>
+        <p>S3E14 • 28 Aug 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-03-8211-episode-15&lang=0')">
+    <div class="episode-thumbnail">
+        <img src="images/ua/s3/15.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>Catch a Falling Star</h3>
+        <p>S3E15 • 4 Sep 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-03-8211-episode-16&lang=0')">
+    <div class="episode-thumbnail">
+        <img src="images/ua/s3/16.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>The Egg Man Cometh</h3>
+        <p>S3E16 • 11 Sep 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-03-8211-episode-17&lang=0')">
+    <div class="episode-thumbnail">
+        <img src="images/ua/s3/17.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>Night of the Living Nightmares</h3>
+        <p>S3E17 • 18 Sep 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-03-8211-episode-18&lang=0')">
+    <div class="episode-thumbnail">
+        <img src="images/ua/s3/18.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>The Beginning of the End</h3>
+        <p>S3E18 • 25 Sep 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-03-8211-episode-19&lang=0')">
+    <div class="episode-thumbnail">
+        <img src="images/ua/s3/19.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>The Ultimate Enemy: Part 1</h3>
+        <p>S3E19 • 2 Oct 2011 • 22 min</p>
+    </div>
+</div>
+
+<div class="episode-item" onclick="OpenLink(this, 'https://beta.awstream.net/watch?v=ben-10-ultimate-alien-8211-season-03-8211-episode-20&lang=0')">
+    <div class="episode-thumbnail">
+        <img src="images/ua/s3/20.avif">
+        
+    </div>
+    <div class="episode-details">
+        <h3>The Ultimate Enemy: Part 2</h3>
+        <p>S3E20 • 9 Oct 2011 • 22 min</p>
+    </div>
+</div>
+        </div>
+</div><script>
+        function showSeason(season) {
+            const seasons = document.querySelectorAll('.episode-list');
+            seasons.forEach(s => s.style.display = 'none');
+            document.getElementById(`season-${season}`).style.display = 'block';
+
+            const buttons = document.querySelectorAll('.season-tab');
+            buttons.forEach(b => b.classList.remove('active'));
+            buttons[season - 1].classList.add('active');
+        }
+function OpenLink(element, url) {
+            window.open(url, '_blank');
+        }
+    </script></body></html>
