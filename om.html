@@ -1,96 +1,12 @@
 <img class="full" onclick="OpenLink(this, 'index.html')" src="images/om.jpg">
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Ben 10: Omniverse</title><link rel="stylesheet" href="styles/pico.min.css"><style>
-        body {
-            background-color: #121212;
-            color: #121212;
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 15px;
-        }
-        .episode-list img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-            object-fit: cover;
-        }
-        .episode-item {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: 20px;
-            padding-bottom: 10px;
-            border-bottom: 1px solid #333;
-        }
-        .episode-thumbnail {
-            width: 150px;
-            height: 84px; /* 16:9 aspect ratio */
-            border-radius: 8px;
-            overflow: hidden;
-            flex-shrink: 0;
-        }
-        .episode-thumbnail img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-        .episode-details {
-            margin-left: 15px;
-            flex-grow: 1;
-        }
-        .episode-details h3 {
-            margin: 0 0 5px 0;
-            font-size: 1em;
-            color: white;
-        }
-        .episode-details p {
-            margin: 0;
-            color: #bbb;
-            font-size: 0.9em;
-        }
-        .season-tabs {
-            display: flex;
-            left-content: center;
-            overflow-x: auto;
-            background-color: #121212;
-            padding: 10px;
-            border-radius: 15px;
-            margin-bottom: 20px;
-        }
-        .season-tab {
-            background-color: #333;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            margin: 0 5px;
-            cursor: pointer;
-            border-radius: 20px;
-            transition: background-color 0.3s;
-            white-space: nowrap;
-        }
-        .season-tab.active, .season-tab:hover {
-            background-color: #555;
-        }
-        .season-tab:focus {
-            outline: 4px solid #121212;
-        }
-        .episode-title {
-            display: flex;
-            align-items: center;
-            margin-bottom: 15px;
-        }
-        .episode-title h3 {
-            margin: 0;
-            font-size: 1.2em;
-        }
-        .episode-title p {
-            margin: 0;
-            color: #bbb;
-        }
-    </style>
+<html lang="en">
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <title>Ben 10: Omniverse</title>
+                <link rel="stylesheet" href="styles/pico.min.css">
+                <link rel="stylesheet" href="styles/episode.css">
+    <script src="script/script.js">
 </head>
 <body>
     <div class="container">
@@ -678,17 +594,5 @@
   </div>
 </div></div>
 
-</div><script>
-        function showSeason(season) {
-            const seasons = document.querySelectorAll('.episode-list');
-            seasons.forEach(s => s.style.display = 'none');
-            document.getElementById(`season-${season}`).style.display = 'block';
-
-            const buttons = document.querySelectorAll('.season-tab');
-            buttons.forEach(b => b.classList.remove('active'));
-            buttons[season - 1].classList.add('active');
-        }
-function OpenLink(element, url) {
-            window.open(url, '_blank');
-        }
-    </script></body></html>
+</div>
+        </body></html>
