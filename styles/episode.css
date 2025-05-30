@@ -24,8 +24,8 @@ body {
             border-bottom: 1px solid #333;
         }
         .episode-thumbnail {
-            width: 150px;
-            height: 84px; /* 16:9 aspect ratio */
+            width: 100%;
+            eight: 84px; /* 16:9 aspect ratio */
             border-radius: 8px;
             overflow: hidden;
             flex-shrink: 0;
